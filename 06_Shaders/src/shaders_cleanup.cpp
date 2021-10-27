@@ -74,7 +74,7 @@ int main()
 	glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(indicies), indicies, GL_STATIC_DRAW);
 
 	ShaderProgram shaderProgram;
-	shaderProgram.loadShaders("shaders/basic.vert", "shaders/basic.frag");
+	shaderProgram.loadShaders("./shaders/basic.vert", "./shaders/basic.frag");
 
 
 

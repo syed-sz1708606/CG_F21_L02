@@ -19,7 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\Transform_01.cpp" />
+    <ClCompile Include="src\mainprojection.cpp" />
     <ClCompile Include="src\ShaderProgram.cpp" />
     <ClCompile Include="src\Texture.cpp" />
   </ItemGroup>
