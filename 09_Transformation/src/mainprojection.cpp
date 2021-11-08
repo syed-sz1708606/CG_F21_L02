@@ -312,7 +312,7 @@ int main() {
 		cubeAngle += (float)deltaTime * 50.0f;
 		if (cubeAngle >= 360.0f)
 			cubeAngle = 0.0f;
-		model = glm::translate(model, cubePos) * glm::rotate(model, glm::radians(cubeAngle),glm::vec3(0.0f,1.0f,0.0f));
+		model = glm::translate(model, cubePos) * glm::rotate(model, glm::radians(cubeAngle),glm::vec3(1.0f,1.0f,1.0f));
 
 		//creare the view matrix 
 		

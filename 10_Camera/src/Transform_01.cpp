@@ -221,7 +221,7 @@ int main() {
 
 
 	ShaderProgram shaderProgram;
-	shaderProgram.loadShaders("res/shaders/basic.vert", "res/shaders/basic.frag");
+	shaderProgram.loadShaders("res/shaders/projection.vert", "res/shaders/projection.frag");
 
 	Texture texture1;
 	texture1.loadTexture(texture1fileName, true);

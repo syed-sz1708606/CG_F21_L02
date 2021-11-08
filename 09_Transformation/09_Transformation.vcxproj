@@ -27,6 +27,10 @@
     <ClInclude Include="src\ShaderProgram.h" />
     <ClInclude Include="src\Texture.h" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="res\shaders\projection.frag" />
+    <None Include="res\shaders\projection.vert" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
